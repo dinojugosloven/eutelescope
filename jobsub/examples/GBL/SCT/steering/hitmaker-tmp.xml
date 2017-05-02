@@ -19,10 +19,11 @@
       <processor name="AIDA"/>
       <processor name="HitMakerM26"/>
       <processor name="HitMakerStrip"/>
+      <!--processor name="HitMakerAPIX"/-->
       <processor name="HitLocalToGlobal"/>
       <processor name="Correlator"/>
       <processor name="PreAligner"/>
-     <xprocessor name="SaveAsRoot"/>
+      <xprocessor name="SaveAsRoot"/>
       <processor name="Save"/>
       <processor name="EUTelUtilityPrintEventNumber"/>
    </execute>
@@ -52,7 +53,7 @@
  <!--EUTelProcessorHitMaker is responsible to translate cluster centers from the local frame of reference 
 to the external frame of reference using the GEAR geometry description-->
   <!--Input cluster collection name-->
-  <parameter name="PulseCollectionName" type="string" lcioInType="TrackerPulse"> cluster_m26_free </parameter>
+  <parameter name="PulseCollectionName" type="string" lcioInType="TrackerPulse"> cluster_m26 </parameter>
   <!--Output hit collection name-->
   <parameter name="HitCollectionName" type="string" lcioOutType="TrackerHit"> local_hit </parameter>
   <!--Hit coordinates are calculated in local reference frame of sensor-->
