@@ -20,7 +20,7 @@
 
       <processor name="ClusteringMimosa"/>  
 
-      <!--processor name="ClusteringAPIX"/-->  
+      <processor name="ClusteringAPIX"/>  
    
       <processor name="ClusteringStrip"/>
       <xprocessor name="SaveAsRoot"/>
