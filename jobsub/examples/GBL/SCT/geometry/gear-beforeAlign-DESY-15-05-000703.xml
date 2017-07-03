@@ -32,7 +32,7 @@
                     positionX="0.0" positionY="0.0" positionZ="377.0" 
                     sizeX="8.14" sizeY="8.14" thickness="0.310" 
                     npixelX="104" npixelY="1" 
-                    pitchX="7.50000000e-02" pitchY="8.14" resolution="4.500000000e-03" 
+                    pitchX="74.5e-3" pitchY="8.14" resolution="4.5e-03" 
                     rotation1="1.0" rotation2="0.0" 
                     rotation3="0.0" rotation4="1.0" 
                     radLength="9.366073400e+01" />
