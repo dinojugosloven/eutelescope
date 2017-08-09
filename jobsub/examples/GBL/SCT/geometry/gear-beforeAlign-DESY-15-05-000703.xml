@@ -30,27 +30,23 @@
                     <sensitive ID="2" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="3.050000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
                 </layer>
                 
-                
-                <!-- DUT ATLAS Mini --->
                 <layer>
                     <ladder ID="8" 
-                    positionX="0.0" positionY="0.0" positionZ="377" 
+                    positionX="0.0" positionY="0.0" positionZ="377.0" 
                     rotationXY="180.0" rotationZX="180.0" rotationZY="0.0" 
-                    sizeX="8.140" sizeY="8.140" thickness="0.05" 
-                    radLength="93.660734" />
+                    sizeX="8.140000000e+00" sizeY="8.140000000e+00" 
+                    thickness="5.000000000e-02" radLength="9.366073400e+01" />
                     
                     <sensitive ID="8" 
-                    positionX="0.0" positionY="0.0" positionZ="377" 
-                    sizeX="8.140" sizeY="8.140" thickness="0.310" 
+                    positionX="0.0" positionY="0.0" positionZ="377.0" 
+                    sizeX="8.14" sizeY="8.14" thickness="0.310" 
                     npixelX="104" npixelY="1" 
-                    pitchX="0.0745" pitchY="8.14" resolution="0.0045" 
+                    pitchX="74.5e-3" pitchY="8.14" resolution="4.5e-03" 
                     rotation1="1.0" rotation2="0.0" 
                     rotation3="0.0" rotation4="1.0" 
-                    radLength="93.660734" />
+                    radLength="9.366073400e+01" />
                 </layer>
                 
-                
-                <!-- Mimosa #3 -->
                 <layer>
                     <ladder ID="3" positionX="0.0" positionY="0.0" positionZ="4.585000000e+02" rotationXY="180.0" rotationZX="180.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
                     <sensitive ID="3" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="4.580000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
@@ -63,28 +59,25 @@
                     <sensitive ID="4" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="6.090000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
                 </layer>
                 
-                
-                <!--APIX-Plane 1 - FE-I4 DBM -->
+                                <!--APIX-Plane 1 - FE-I4 DBM -->
 				<layer>
 					<ladder 	ID="20" 
-							positionX="0.00"	positionY="0.00"	positionZ="750.0" 
-							rotationZY="0.0"	rotationZX="180.0"	rotationXY="180.0"
-							sizeX="20.0"		sizeY="16.8"		thickness="0.700" 
+							positionX="0.0"	positionY="0.0"	positionZ="750.0" 
+							rotationXY="180.0"	rotationZX="180.0"	rotationZY="0.0"		
+							sizeX="20.0"		sizeY="16.8"		thickness="0.640" 
 							radLength="65.000000"
 					/>
 					<sensitive 	ID="20" 
-							positionX="0.00"	positionY="0.00"	positionZ="750.0" 
-	                        sizeX="20.0"        sizeY="16.8"        thickness="0.500"
+							positionX="0.0"	positionY="0.0"	positionZ="750.0" 
+	                        sizeX="20.0"        sizeY="16.8"        thickness="0.250"
                             npixelX="80"        npixelY="336"
                             pitchX="0.250"      pitchY="0.050"       resolution="0.1000" 
 							rotation1="1.0" 	rotation2="0.0"
 							rotation3="0.0" 	rotation4="1.0" 
 							radLength="65.000000"
 					/>
-				</layer> 
+				</layer>
                 
-                
-                <!-- Mimosa #5 -->
                 <layer>
                     <ladder ID="5" positionX="0.0" positionY="0.0" positionZ="7.595000000e+02" rotationXY="180.000000000e+00" rotationZX="180.000000000e+00" rotationZY="0.000000000e+00" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" radLength="9.366073400e+01" />
                     <sensitive ID="5" positionX="0.000000000e+00" positionY="0.000000000e+00" positionZ="7.590000000e+02" sizeX="2.120000000e+01" sizeY="1.060000000e+01" thickness="5.000000000e-02" npixelX="1152" npixelY="576" pitchX="1.840277800e-02" pitchY="1.840277800e-02" resolution="4.500000000e-03" rotation1="1.000000000e+00" rotation2="0.000000000e+00" rotation3="0.000000000e+00" rotation4="1.000000000e+00" radLength="9.366073400e+01" />
